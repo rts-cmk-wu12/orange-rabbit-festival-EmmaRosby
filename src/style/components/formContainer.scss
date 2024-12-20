@@ -1,0 +1,33 @@
+.formContainer{
+    background-color: white;
+  
+    height: auto;
+    padding-top: 1rem;
+
+    &__information{
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: .7rem;
+
+        &__description{
+            font-size: .5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+        
+        h1{
+            font-size: 1rem;
+        }
+        
+        &__time-location{
+            font-size: .5rem;
+            font-weight: 700;
+            
+        }
+    }
+    &__dotted{
+        border-bottom: dotted #e6e6e6;
+
+    }
+}
